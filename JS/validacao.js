@@ -35,7 +35,7 @@ function validaCPF(input){
 	let mensagem = ''
 
 	if(!checaCPFRepetido(cpfFormatado)){
-		mensagem = 'OCPF digitado não é vélido.'
+		mensagem = 'O CPF digitado não é vélido.'
 	}
 
 	input.setCustomValidity(mensagem)
